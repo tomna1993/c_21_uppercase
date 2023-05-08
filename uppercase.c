@@ -10,10 +10,8 @@ int main(void)
 
 	printf("After:  ");
 
-	int length = strlen(s);
-
 	//Change lowercase letters to uppercase
-	for (int i = 0; i < length; i++)
+	for (int i = 0, length = strlen(s); i < length; i++)
 	{
 		printf("%c", toupper(s[i]));
 	}
