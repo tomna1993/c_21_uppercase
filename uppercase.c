@@ -9,10 +9,8 @@ int main(void)
 	string name = get_string("What's your name? ");
 
 	//Change lowercase letters to uppercase
-	name = lowerToUpperCase(name);
-
 	//Print out the result
-	printf("%s\n", name);
+	printf("%s\n", lowerToUpperCase(name));
 }
 
 //Function to change lowercase letters to uppercase in a given text
