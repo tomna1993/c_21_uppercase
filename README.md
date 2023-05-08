@@ -5,9 +5,27 @@
 The program takes a string from the user, then changes the lowercase letters to uppercase.
 Uppercase letters in the user string will remain uppercase.
 
+## ALGORITHM
+
+To change the lowercase letters to uppercase we have to look at the ASCII table. 
+There is a pattern we recognize between upper and lowercase letters, let's see two examples:
+
+| Lowercase Letter 	| ASCII code (DEC)	| Uppercase Letter (DEC)	| ASCII code 	|
+|-------------------|-------------------|---------------------------|---------------|
+| a 			   	| 97				| A							| 65			|
+| c					| 99				| C							| 67			|
+
+v1.0  
+There is always __32__ between the lowercase and uppercase letters.
+We can iterate through the letters of a string in loop and check each character in the string. If the character is between 'a' and 'z' then we have to add 32 to the character's decimal value, this way we change it to uppercase. 
+
+v2.0  
+The best way is using a library where this process is already implemented. This library is `ctype.h`.
+
+
 ## INSTALL LIBRARIES
 
-The source code uses the cs50 library what you can download [HERE](https://github.com/cs50/libcs50)
+The source code uses the cs50 library what you can download [HERE](https://github.com/cs50/libcs50).
 
 To install the cs50 library follow the steps:
 
