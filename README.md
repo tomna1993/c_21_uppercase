@@ -17,7 +17,7 @@ There is a pattern we recognize between upper and lowercase letters, let's see t
 
 ### v1.0  
 There is always __32__ between the lowercase and uppercase letters.
-We can iterate through the letters of a string in loop and check each character in the string. If the character is between 'a' and 'z' then we have to add 32 to the character's decimal value, this way we change it to uppercase. 
+We can iterate through the letters of a string in loop and check each character in the string. If the character is between 'a' and 'z' then we have to subtract 32 from the character's decimal value, this way we change it to uppercase. 
 
 ### v2.0  
 The best way is using a library where this process is already implemented. This library is `ctype.h`.
