@@ -13,14 +13,8 @@ int main(void)
 	//Change lowercase letters to uppercase
 	for (int i = 0; i < strlen(s); i++)
 	{
-		if (islower(s[i]))
-		{
-			printf("%c", s[i] - 32);
-		}
-		else
-		{
-			printf("%c", s[i]);
-		}
+		s[i] = toupper(s[i]);
+		printf("%c", s[i]);
 	}
 
 	printf("\n");
