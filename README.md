@@ -10,10 +10,10 @@ Uppercase letters in the user string will remain uppercase.
 To change the lowercase letters to uppercase we have to look at the ASCII table. 
 There is a pattern we recognize between upper and lowercase letters, let's see two examples:
 
-| Lowercase Letter 	| ASCII code (DEC)	| Uppercase Letter (DEC)	| ASCII code 	|
-|-------------------|-------------------|---------------------------|---------------|
-| a 			   	| 97				| A							| 65			|
-| c					| 99				| C							| 67			|
+| Lowercase Letter 	| ASCII code (DEC)	| Uppercase Letter	| ASCII code (DEC)	|
+|-------------------|-------------------|-------------------|-------------------|
+| a 			   	| 97				| A					| 65				|
+| c					| 99				| C					| 67				|
 
 v1.0  
 There is always __32__ between the lowercase and uppercase letters.
